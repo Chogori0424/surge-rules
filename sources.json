@@ -1,0 +1,6 @@
+{
+  "OpenAI":   { "include": ["openai"] },
+  "Claude":   { "include": ["anthropic"] },
+  "Gemini":   { "include": ["google-deepmind"] },
+  "AI-Other": { "include": ["category-ai-!cn"], "exclude": ["openai", "anthropic", "google-deepmind"] }
+}

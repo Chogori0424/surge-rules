@@ -1,0 +1,4 @@
+# Manual additions not (yet) in v2fly. One Surge rule per line.
+# Arkose Labs captcha used by ChatGPT login / API signup
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com

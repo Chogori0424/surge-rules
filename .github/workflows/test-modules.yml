@@ -1,0 +1,25 @@
+name: Test modules
+
+on:
+  push:
+    paths: ["modules/**"]
+  pull_request:
+    paths: ["modules/**"]
+
+jobs:
+  startup-ads:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: modules/startup-ads
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: node scripts/generate.mjs --check
+      - run: node --test tests/startup.test.mjs
+      - run: python3 -m unittest discover -s tests -p '*_test.py'

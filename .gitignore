@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+node_modules/
+# 完整手机清单、分析及实机日志只留本地
+modules/startup-ads/inventory/*
+!modules/startup-ads/inventory/support-matrix.csv
+modules/startup-ads/private/
+**/iphone-apps*.csv
