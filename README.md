@@ -11,13 +11,19 @@ Chogori 的 Surge 规则与模块，Mac / iOS 通过远程地址拉取。
 | `rules/OpenAI.list` | ChatGPT、Sora、OpenAI API | `openai` |
 | `rules/Claude.list` | Claude、Anthropic | `anthropic` |
 | `rules/Gemini.list` | Gemini、AI Studio、NotebookLM、Antigravity、Jules | `google-deepmind` |
-| `rules/AI-Other.list` | Grok、Perplexity、Copilot、Cursor、Mistral、OpenRouter 等 | `category-ai-!cn` 去掉以上三项 |
+| `rules/Grok.list` | Grok、xAI | `xai` |
+| `rules/Perplexity.list` | Perplexity | `perplexity` |
+| `rules/Copilot.list` | GitHub Copilot、Microsoft Copilot | `github-copilot` + `custom/Copilot.list` |
+| `rules/AI-Other.list` | 长尾：Cursor、Mistral、OpenRouter、Hugging Face、Poe 等 | `category-ai-!cn` 去掉以上所有 |
 
 ```ini
 RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/OpenAI.list,ChatGPT,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/Claude.list,Claude,update-interval=86400
 RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/Gemini.list,Gemini,update-interval=86400
-RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/AI-Other.list,其他 AI,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/Grok.list,Grok,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/Perplexity.list,Perplexity,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/Copilot.list,Copilot,update-interval=86400
+RULE-SET,https://raw.githubusercontent.com/Chogori0424/surge-rules/main/rules/AI-Other.list,美国节点,update-interval=86400
 ```
 
 维护：

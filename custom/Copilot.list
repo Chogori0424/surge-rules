@@ -1,0 +1,6 @@
+# Manual additions not (yet) in v2fly. One Surge rule per line.
+# Microsoft Copilot (listed inline in v2fly category-ai-!cn, no own file)
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,copilot-stg.com

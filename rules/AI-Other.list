@@ -1,14 +1,7 @@
 # NAME: AI-Other
 # SOURCE: v2fly/domain-list-community (category-ai-!cn)
-# UPDATED: 2026-10-26 11:21:35 UTC
-# TOTAL: 115
-DOMAIN,copilot-proxy.githubusercontent.com
-DOMAIN,copilot-telemetry-service.githubusercontent.com
-DOMAIN,copilot-telemetry.githubusercontent.com
-DOMAIN,copilot-workspace.githubnext.com
-DOMAIN,copilotprodattachments.blob.core.windows.net
-DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
-DOMAIN,pplx-res.cloudinary.com
+# UPDATED: 2026-10-26 11:46:04 UTC
+# TOTAL: 96
 DOMAIN-SUFFIX,agentclientprotocol.com
 DOMAIN-SUFFIX,anythingllm.com
 DOMAIN-SUFFIX,arena.ai
@@ -28,10 +21,6 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
-DOMAIN-SUFFIX,copilot-stg.com
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-DOMAIN-SUFFIX,copilot.com
-DOMAIN-SUFFIX,copilot.microsoft.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,cursor-cdn.com
@@ -54,12 +43,8 @@ DOMAIN-SUFFIX,envato-static.com
 DOMAIN-SUFFIX,envato.com
 DOMAIN-SUFFIX,envatousercontent.com
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
-DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,grazie.ai
 DOMAIN-SUFFIX,grazie.aws.intellij.net
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grok.x.com
-DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,groq.com
 DOMAIN-SUFFIX,h2o.ai
 DOMAIN-SUFFIX,hf.co
@@ -95,12 +80,9 @@ DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,openspec.dev
 DOMAIN-SUFFIX,oystermercury.top
-DOMAIN-SUFFIX,perplexity.ai
-DOMAIN-SUFFIX,perplexity.com
 DOMAIN-SUFFIX,plannotator.ai
 DOMAIN-SUFFIX,poe.com
 DOMAIN-SUFFIX,poecdn.net
-DOMAIN-SUFFIX,pplx.ai
 DOMAIN-SUFFIX,qoder.com
 DOMAIN-SUFFIX,sider.ai
 DOMAIN-SUFFIX,spicywriter.com
@@ -113,7 +95,6 @@ DOMAIN-SUFFIX,tripo3d.ai
 DOMAIN-SUFFIX,typesafe.ai
 DOMAIN-SUFFIX,windsurf.build
 DOMAIN-SUFFIX,windsurf.com
-DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,youmind.ai
 DOMAIN-SUFFIX,youmind.com
 DOMAIN-SUFFIX,youmind.site

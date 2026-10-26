@@ -1,0 +1,9 @@
+# NAME: Perplexity
+# SOURCE: v2fly/domain-list-community (perplexity)
+# UPDATED: 2026-10-26 11:46:04 UTC
+# TOTAL: 5
+DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
+DOMAIN,pplx-res.cloudinary.com
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+DOMAIN-SUFFIX,pplx.ai

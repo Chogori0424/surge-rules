@@ -2,8 +2,10 @@
 """Build Surge rule lists from v2fly/domain-list-community.
 
 Each output in sources.json lists v2fly data files to include (resolving
-nested `include:`) and optionally files to exclude. Rules in custom/<Name>.list
-are appended as-is. Output goes to rules/<Name>.list.
+nested `include:`) and optionally files to exclude. `"exclude_outputs": "*"`
+drops every rule already present in another output, which keeps a catch-all
+list from overlapping the per-service ones. Rules in custom/<Name>.list are
+appended as-is. Output goes to rules/<Name>.list.
 """
 import json
 import re
@@ -75,7 +77,7 @@ def to_surge(kind, value):
     return None
 
 
-def build(name, spec):
+def collect(name, spec):
     excluded = set()
     for ex in spec.get("exclude", []):
         excluded.update(parse(ex))
@@ -93,6 +95,10 @@ def build(name, spec):
             line = line.strip()
             if line and not line.startswith("#") and line not in rules:
                 rules.append(line)
+    return rules
+
+
+def render(name, spec, rules):
     order = {"DOMAIN": 0, "DOMAIN-SUFFIX": 1, "DOMAIN-WILDCARD": 2, "DOMAIN-KEYWORD": 3}
     rules.sort(key=lambda r: (order.get(r.split(",")[0], 9), r))
     header = [
@@ -108,8 +114,13 @@ def main():
     sources = json.loads((ROOT / "sources.json").read_text())
     out_dir = ROOT / "rules"
     out_dir.mkdir(exist_ok=True)
+    collected = {n: collect(n, s) for n, s in sources.items()}
     for name, spec in sources.items():
-        text = build(name, spec)
+        if spec.get("exclude_outputs") == "*":
+            others = {r for n, rs in collected.items() if n != name and sources[n].get("exclude_outputs") != "*" for r in rs}
+            collected[name] = [r for r in collected[name] if r not in others]
+    for name, spec in sources.items():
+        text = render(name, spec, collected[name])
         path = out_dir / f"{name}.list"
         old = path.read_text() if path.exists() else ""
         # Ignore the timestamp line so unchanged lists don't produce commits.
