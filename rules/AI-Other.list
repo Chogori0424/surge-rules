@@ -1,16 +1,18 @@
 # NAME: AI-Other
 # SOURCE: v2fly/domain-list-community (category-ai-!cn)
-# UPDATED: 2026-10-26 11:46:04 UTC
-# TOTAL: 96
+# UPDATED: 2026-10-27 23:35:24 UTC
+# TOTAL: 102
 DOMAIN-SUFFIX,agentclientprotocol.com
 DOMAIN-SUFFIX,anythingllm.com
 DOMAIN-SUFFIX,arena.ai
+DOMAIN-SUFFIX,artificialanalysis.ai
 DOMAIN-SUFFIX,cerebras.ai
 DOMAIN-SUFFIX,chutes.ai
 DOMAIN-SUFFIX,cici.com
 DOMAIN-SUFFIX,ciciai.com
 DOMAIN-SUFFIX,ciciaicdn.com
 DOMAIN-SUFFIX,clawhub.ai
+DOMAIN-SUFFIX,cline.bot
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
@@ -21,6 +23,8 @@ DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,comfy.org
 DOMAIN-SUFFIX,comfyci.org
 DOMAIN-SUFFIX,comfyregistry.org
+DOMAIN-SUFFIX,commandcode.ai
+DOMAIN-SUFFIX,context7.com
 DOMAIN-SUFFIX,coze.com
 DOMAIN-SUFFIX,crewai.com
 DOMAIN-SUFFIX,cursor-cdn.com
@@ -64,6 +68,7 @@ DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,marscode.com
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,metaaiusercontent.com
 DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,minimax.io
@@ -72,6 +77,7 @@ DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,notegpt.io
+DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,novelai.net
 DOMAIN-SUFFIX,ollama.com
 DOMAIN-SUFFIX,openart.ai
