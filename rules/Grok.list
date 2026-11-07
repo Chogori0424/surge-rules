@@ -1,8 +1,9 @@
 # NAME: Grok
 # SOURCE: v2fly/domain-list-community (xai)
-# UPDATED: 2026-10-26 11:46:04 UTC
-# TOTAL: 4
+# UPDATED: 2026-11-07 23:28:52 UTC
+# TOTAL: 5
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,x.ai
