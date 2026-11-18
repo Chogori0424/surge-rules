@@ -1,7 +1,7 @@
 # NAME: AI-Other
 # SOURCE: v2fly/domain-list-community (category-ai-!cn)
-# UPDATED: 2026-10-27 23:35:24 UTC
-# TOTAL: 102
+# UPDATED: 2026-11-18 02:11:06 UTC
+# TOTAL: 103
 DOMAIN-SUFFIX,agentclientprotocol.com
 DOMAIN-SUFFIX,anythingllm.com
 DOMAIN-SUFFIX,arena.ai
@@ -43,6 +43,7 @@ DOMAIN-SUFFIX,dreamgen.com
 DOMAIN-SUFFIX,duck.ai
 DOMAIN-SUFFIX,elevenlabs.com
 DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,elevenlabsusercontent.com
 DOMAIN-SUFFIX,envato-static.com
 DOMAIN-SUFFIX,envato.com
 DOMAIN-SUFFIX,envatousercontent.com
